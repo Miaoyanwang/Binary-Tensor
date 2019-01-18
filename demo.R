@@ -5,7 +5,7 @@ rank=3
 alpha=10
 sigma=1
 
-## simulate a binary tensor with rank-3 signals
+## simulate a binary tensor with a rank-3 signal tensor
 simulate=low_rank(c(d,d,d),rank,alpha,sigma) ## simulate a rank-3 signal tensor with infinity norm bound alpha. 
 ttensor=simulate$parameter ## extract the real-valued canonical tensor
 Y=ttensor+array(rnorm(d^3,0,sigma),dim=c(d,d,d)) ## add Gaussian noise and generate the corresponding binary tensor 
