@@ -1,5 +1,5 @@
 Software accompaniment to:
 
-M. Wang and L. Li. Learning from Binary Multiway Data: Probabilistic Tensor Decomposition and Its Statistical Optimality. https://arxiv.org/abs/1811.05076
+M. Wang and L. Li. Learning from Binary Multiway Data: Probabilistic Tensor Decomposition and Its Statistical Optimality. The Journal of Machine Learning Research, to appear, 2020.
 
-This folder contains R functions and examples for binary tensor decomposition. This is an beta version. An updated version will be coming soon. Keep tuned!
+This folder contains R functions and examples for binary tensor decomposition. This is an beta version. A newer version that analyzes ordinal tensors can be found in https://cran.r-project.org/web/packages/tensorordinal/index.html. 
